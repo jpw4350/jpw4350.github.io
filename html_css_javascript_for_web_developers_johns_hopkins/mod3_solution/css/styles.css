@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #775757 !important;
+    border: 1px solid #000;
+
+}
+
+.navbar-collapse {
+    margin-top: 10px;
+}
+
+li{
+    border: 1px solid #000;
+    background-color: #928282;
+}
+
+h2 {
+    margin: 20px
+}
+
+section.row {
+    background-color: #b3aaaa;
+    padding: 10px;
+    margin: 20px 50px;
+
+}
+
+.section-title {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+
+
+@media screen and (min-width: 576px){
+    .container {
+        max-width: 100%;
+    
+    }
+
+    section.row {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 576px ) {
+    .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+}
